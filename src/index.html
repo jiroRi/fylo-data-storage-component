@@ -4,24 +4,31 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="./styles/index.css">
+  <link rel="stylesheet" type="text/css" href="./styles/shared.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
   
   <title>Frontend Mentor | Fylo data storage component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
-
-  You’ve used 815 GB of your storage
-
-  185 GB Left
+  <div class="background"></div>
   
-  0 GB
-  1000 GB
+  <div class="fylo-component">
+
+    <div class="fylo-component__buttons">
+      <div class="fylo-component__buttons-logo"></div>
+      <div class="fylo-component__buttons-icon"></div>
+    </div>
+
+    <div class="fylo-component__storage">
+      <div class="fylo-component__storage-title">You’ve used 815 GB of your storage</div>
+      <div class="fylo-component__storage-bar">0 GB 1000 GB</div>
+      <div class="fylo-component__storage-label">185 GB Left</div>
+    </div>
+
+  </div>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
