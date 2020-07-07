@@ -219,7 +219,7 @@ body {
             padding: 2px;
             margin-bottom: 10px;
 
-            background-color: map-get($colors, very-dark-blue);
+            background-color: map-get($colors, very-dark-blue-transparent);
             box-shadow: 2px 2px 4px rgba(12, 18, 44, 0.5);
             overflow: hidden;
             border-radius: 12px;

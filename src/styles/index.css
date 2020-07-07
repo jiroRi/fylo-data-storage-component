@@ -314,7 +314,7 @@ body {
   height: 20px;
   padding: 2px;
   margin-bottom: 10px;
-  background-color: #0c122c;
+  background-color: rgba(12, 18, 44, 0.6);
   -webkit-box-shadow: 2px 2px 4px rgba(12, 18, 44, 0.5);
           box-shadow: 2px 2px 4px rgba(12, 18, 44, 0.5);
   overflow: hidden;
