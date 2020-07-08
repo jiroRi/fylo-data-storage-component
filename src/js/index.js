@@ -8,3 +8,4 @@ function progressLoad() {
         storageBarPercentage.style.opacity = 1;
     }, 100);
 }
+
